@@ -1,0 +1,393 @@
+* {
+    font-family: "poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#imgdiv {
+    height: 600px;
+    width: 100%;
+    border: 1px dotted black;
+    background-image: url("https://img2.shaadi.com/assests/semlandingpage2/home-banner-1.webp");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#imgdiv1 {
+    height: 42px;
+    width: 125px;
+    background-image: url("/shadi22.png");
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+#log {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#b1, #b2 {
+    height: 50px;
+    width: 60px;
+    font-weight: 600;
+    background-color: transparent;
+    color: #f1f1f2;
+}
+
+#heading {
+    color: white;
+    text-align: center;
+    margin-top: 170px;
+}
+
+#select {
+    width: 90%;
+    max-width: 1200px;
+    height: 108px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#select div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#s1, #s2, #s3, #s4, #s5 {
+    color: black;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+#bt {
+    color: black;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    margin-top: 5px;
+}
+
+#hed {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#gg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f2;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+#logo, #logo22, #logo33 {
+    height: 340px;
+    width: 320px;
+    background-color: #f1f1f2;
+    margin: 10px;
+    text-align: center;
+}
+
+#logo1, #logo2, #logo3 {
+    height: 148px;
+    width: 133px;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#logo1 {
+    background-image: url(/big1.png);
+}
+
+#logo2 {
+    background-image: url(/big2.png);
+}
+
+#logo3 {
+    background-image: url(/big3.png);
+}
+
+#sign, #sign1, #sign3 {
+    color: blue;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+#next {
+    width: 100%;
+    padding: 20px 0;
+}
+
+#next1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#img1, #img2, #img3 {
+    height: 515px;
+    width: 300px;
+    color: black;
+    margin: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+    transition: transform 0.5s;
+}
+
+#img1:hover, #img2:hover, #img3:hover {
+    transform: scale(1.1);
+}
+
+#h1 {
+    color: red;
+}
+
+#he {
+    color: green;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#last1 {
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    margin: 20px 0;
+}
+
+#last1:hover {
+    color: rgba(0,0,0,0.9);
+}
+
+#lst1 {
+    height: 108px;
+    width: 100%;
+    background-color: rgb(239, 103, 103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lst2 {
+    height: 58px;
+    width: 90%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#lt {
+    color: white;
+}
+
+#lts {
+    height: 50px;
+    width: 170px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+#new1 {
+    width: 100%;
+}
+
+#new3 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+#nu{
+    height: 44px;
+    width: 149px;
+    background-image: url("/https://img2.shaadi.com/assests/2021/images/Matrimony-App-Shaadi.com-Playstore.svg");
+    }
+    #nuu{
+        height: 44px;
+        width: 149px;
+        background-image: url("/https://img2.shaadi.com/assests/2021/images/Matrimony-App-Shaadi.com-Appstore.svg");
+    
+    }
+
+    #hrrr{
+
+        margin:40px ;
+        
+        }
+
+#lal {
+    color: red;
+}
+
+#new4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#imgd {
+    height: 406px;
+    width: 420px;
+    background-image: url("https://img2.shaadi.com/assests/2023/images/shaadiLiveImage.png");
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#si {
+    font-size: x-large;
+    text-align: center;
+}
+
+#hrrr {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#pr {
+    text-align: center;
+    color: rgb(238, 96, 96);
+}
+
+#sh {
+    text-align: center;
+}
+
+#logs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#nu, #nuu {
+    height: 44px;
+    width: 149px;
+    background-size: cover;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    #select {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #imgdiv1 {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    #log {
+        position: static;
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    #gg {
+        flex-direction: column;
+    }
+
+    #logo, #logo22, #logo33 {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    #next1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #new4 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    #imgdiv {
+        height: 400px;
+    }
+
+    #heading {
+        margin-top: 120px;
+    }
+
+    #new3 {
+        margin: 10px 0;
+    }
+
+    #lal {
+        font-size: 1.5rem;
+    }
+
+    #imgd {
+        height: 300px;
+        width: 300px;
+    }
+
+    #select {
+        width: 100%;
+        padding: 10px;
+    }
+}
+#dnyani {
+    height: 300px;
+    width: 300px;
+    background-image: url("/dnyani.jpg");
+    background-size: cover;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+
+
+}
+
+#mukund {
+    height: 300px;
+    width: 300px;
+    background-image: url("/mukund.jpg");
+    background-size: cover;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+
+}
+
+
+#kedar {
+    height: 300px;
+    width: 300px;
+    background-image: url("/kedar.jpg");
+    background-size: cover;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+
+}
